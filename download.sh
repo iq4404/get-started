@@ -9,5 +9,3 @@ mkdir "$homedir"lineage && cd "$homedir"lineage && repo init -u git://github.com
 cp -r $patchespath/patches "$homedir"lineage/device/Fly/IQ4404/patches
 cd "$homedir"lineage/device/Fly/IQ4404/patches && chmod +x apply.sh && ./apply.sh
 echo "Your lineage OS in: "$homedir"lineage/"
-
-
